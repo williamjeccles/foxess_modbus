@@ -283,7 +283,7 @@ def _pv_entities() -> Iterable[EntityFactory]:
         key="pv3_voltage",
         addresses=[
             ModbusAddressesSpec(input=[11096], models=Inv.KH_PRE119),
-            ModbusAddressesSpec(holding=[31039], models=Inv.KH_119),
+            ModbusAddressesSpec(holding=[39074], models=Inv.KH_119),
             ModbusAddressesSpec(holding=[39074], models=Inv.H3_PRO),
         ],
         name="PV3 Voltage",
